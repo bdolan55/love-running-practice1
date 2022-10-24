@@ -2,9 +2,10 @@
 
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     border: 0;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -13,7 +14,8 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,17 +32,18 @@ h1, h2 {
 
 #menu {
     font-size: 100%;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
 #menu li {
-    float:right;
+    float: right;
     list-style-type: none;
-    margin-left: 30px;    
+    margin-left: 30px;
 }
 
 #menu a {
@@ -53,7 +56,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a ;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* hero image and cover text*/
@@ -65,7 +68,8 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -86,17 +90,19 @@ h1, h2 {
     from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
-#cover-text{
+
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 300px;
-    height:200px;
+    height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -200,7 +206,7 @@ hr {
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
-    width:20%;
+    width: 20%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
@@ -211,4 +217,25 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/*footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
